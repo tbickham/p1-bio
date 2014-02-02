@@ -1,12 +1,53 @@
-.container {
-	background: silver;
+body {
+	background: #EEC600;
 	font-family: 'Carme', sans-serif;
 }
 
+h1 {
+	text-align: center;
+	height: 50px;
+}
+
+div {
+	margin: 10px;
+}
+
+p {
+	padding: 25px;
+}
+
 .portait {
-	background: red;
+	text-align: center;
+	height: 660px;
+	padding: 0;
+}
+
+.sidepanel {
+	background: lightblue;
+	height: 660px;
+}
+
+.portait p {
+	padding: 10px;
+	margin: 0px;
 }
 
 .panel {
 	background: lime;
+	height: 350px;
+}
+
+.panel h1 {
+	font-size: 24px;
+}
+
+.panelrow {
+	margin: 10px 0px;
+}
+
+.portait,
+.sidepanel,
+.panel {
+	background: lightblue;
+	box-shadow: 0 0 5px 5px #CCA400;
 }
